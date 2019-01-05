@@ -9,7 +9,7 @@ now = 2018
 #countup with no year
 loop do
    if "#{now - countup_value}" == "#{countup_value - user_year_of_birth}"
-      puts "il y a #{i + 1} ans, tu avais la moitié de l'age que tu as aujourd'hui !"
+      puts "il y a #{now - countup_value} ans, tu avais la moitié de l'age que tu as aujourd'hui !"
    else 
       puts "Il y a  #{now - countup_value} ans,  tu avais #{countup_value - user_year_of_birth} ans."
       end
