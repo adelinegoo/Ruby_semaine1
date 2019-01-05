@@ -1,4 +1,4 @@
-# exo_12
+# exo_12 Countup timer
 
 puts "Merci de me donner un nombre au pif."
 user_number = gets.chomp
