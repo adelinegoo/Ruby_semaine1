@@ -1,6 +1,6 @@
 # exo_12
 
-puts "Merci de me donner un nombre au pif
+puts "Merci de me donner un nombre au pif".
 user_number = gets.chomp
 
 countup_value = 0
