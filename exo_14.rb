@@ -1,6 +1,6 @@
 # exo_14.rb Countdown to 0
 puts "Merci de me donner un nombre au pif "
-user_number = gets.chomp
+user_number = gets.chomp.to_i
 
 
 until user_number < 0
